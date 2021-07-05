@@ -1,0 +1,117 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+}
+.section{
+    display: flex;
+    margin: 30px;
+}
+.home-text{
+    width: 50%;
+    padding: 40px;
+}
+.home-images{
+    width: 50%;
+}
+h4{
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
+.clour-text{
+    color:orange;
+}
+p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.button{
+    text-decoration: none;
+    background-color: #FBA24F;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400px;
+}
+/*about*/
+#about{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-images img{
+    width: 50%;
+    
+}
+.about-images{
+    padding-left: 100px;
+   
+    
+}
+.about-text{
+    width: 60%;
+    padding: 30px;
+}
+h2{
+    font-size: 30px;
+}
+/*recipies*/
+.recipies{
+    display: flex;
+    margin: 20px;
+    
+    
+}
+.recipies1{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+}
+.heading{
+    text-align: center;
+    font-weight: 400;
+    font: size 20px; ;
+}
+.pragraph{
+    text-align: center;
+    font-size: 15px;
+}
+.text-item{
+    text-align: center;
+}
+/*count*/
+.count{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.count-position{
+    align-items: center;
+   padding: 40px;
+}
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    
+    
+}
+.footer p{
+    color:white;
+}
+.footer h2{
+    color:#5B5B5B;
+    padding-top: 50px;
+}
